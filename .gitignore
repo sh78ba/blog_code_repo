@@ -1,0 +1,208 @@
+# =========================
+
+# PYTHON
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+
+# DJANGO
+
+# =========================
+
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# =========================
+
+# ENV / SECRETS
+
+# =========================
+
+.env
+.env.*
+*.env
+*.pem
+*.key
+secrets.json
+
+# =========================
+
+# VIRTUAL ENVIRONMENTS
+
+# =========================
+
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# =========================
+
+# TESTING / COVERAGE
+
+# =========================
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# =========================
+
+# TYPE CHECKERS / LINTERS
+
+# =========================
+
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+
+# =========================
+
+# JUPYTER
+
+# =========================
+
+.ipynb_checkpoints
+
+# =========================
+
+# IDE / EDITORS
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+
+# MACOS
+
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# =========================
+
+# WINDOWS
+
+# =========================
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+
+# LINUX
+
+# =========================
+
+*~
+
+# =========================
+
+# NODE (if frontend exists)
+
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+
+# DOCKER
+
+# =========================
+
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# =========================
+
+# REDIS / CACHE
+
+# =========================
+
+dump.rdb
+
+# =========================
+
+# CELERY / ASYNC
+
+# =========================
+
+celerybeat-schedule
+
+# =========================
+
+# MISC
+
+# =========================
+
+*.bak
+*.tmp
+*.orig
+
+# =========================
+
+# MIGRATIONS (OPTIONAL)
+
+# =========================
+
+# Uncomment ONLY if you know what you're doing
+
+# */migrations/*
+
+# !*/migrations/**init**.py
